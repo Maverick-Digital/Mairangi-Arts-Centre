@@ -35,7 +35,7 @@
 
     foreach ($terms as $term) :
 
-    ?>
+    ?>    
 
       <label>
 
