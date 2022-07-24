@@ -1,0 +1,72 @@
+body {background:#fff !important; font-size:14px !important;}
+.noprint, header,footer, .related-products, .cookie-consent,.back-to-top-wrap{display:none !important;}
+.faq_list li{position:relative !important;left: auto !important;top: auto !important;width: 100%;}
+.faq_list li .morecontent{display:block;}
+.faq_list li .question{}
+.faq_list li *{border:0 !important;}
+.faq_list  p:empty{display:none;}
+.faq_list li .question .hamburger{display:none;}
+.hero-slider .inner{
+  height: auto !important;
+  min-height:30px !important;
+}
+.col-5,.col-7,.inner-1170,.intro-copy{min-width:100% !important;max-width: 100%;}
+ .col-time{padding:0;}
+.hero-slider .intro-copy{padding: 1em !important;margin: 0; color:inherit; text-sahow:none;}
+.hero-slider .bg-image{display:none;}
+.hero-slider a.button{display:none !important;}
+.mar-top-160{margin-top:40px !important;}
+.faq_wrap > li { width:100% !important; position:relative !important; top:0 !important; left:0 !important; }
+
+* {
+    -webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
+    color-adjust: exact !important;                 /*Firefox*/
+}
+
+.print {visibility:visible !important; display:block !important; }
+
+[data-aos] {
+    display: block !important;
+    opacity: 1 !important;
+    transform: translate(0) scale(1) !important;
+}
+img {}
+
+body.single-itineraries {
+  background-color: white;
+  font-weight: 400 !important; 
+  color: #333 !important; 
+}
+
+.single-itineraries p {margin-bottom: 1.15rem !important; }
+
+.single-itineraries h1, .single-itineraries h2, .single-itineraries h3, .single-itineraries h4, .single-itineraries h5 {
+  margin: 0rem 0 1.05rem !important; 
+  line-height: 1.15 !important; 
+}
+
+h1, .single-itineraries h1{
+  margin-top: 0;
+  font-size: 4em !important;
+  text-shadow: none !important;
+  }
+
+
+h2{font-size: 2.074em !important; }
+
+h3, .single-itineraries h3{font-size: 1.728em !important; }
+
+h4 {font-size: 1.44em !important; }
+
+h5 {font-size: 1.2em !important; }
+
+small, .text_small {font-size: 0.833em !important; }
+
+.daybyday .col.image{/* width:40% !important; *//* float:left; */}
+.daybyday .col.intro{/* width:60% !important; *//* float:left; */}
+
+.daybyday .image:before{display:none;}
+.itin_content {max-width:80% !important; margin:0 auto;}
+.pad-bot-20 {padding:0 !important; }
+.single-itineraries .button{display:none !important; }
+a{text-decoration: underline !important;}

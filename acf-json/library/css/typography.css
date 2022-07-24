@@ -1,0 +1,74 @@
+body {
+    font-family: 'Exo', open-sans, Helvetica, Arial, sans-serif;
+    /* background: #181818; */
+    font-weight: 300;
+    font-style: normal;
+/* color: #ffffff; *//* background-color: #fefefe; */
+    /* background-image: linear-gradient(310deg, #0b4f3a 0%, #0b150f 50%, #070704 100%); */ 
+    /* background: url('https://nzadventures.local/wp-content/uploads/2022/04/testimonials-1-600x298.jpg') center; */
+background-image: linear-gradient(0deg, #f0efe8,#f0efe8, #ffffff);/* background-attachment: fixed; *//* background-size: cover; */}
+
+/* Typography
+------------------------ */
+
+
+
+h1,h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{letter-spacing:0.018em;line-height: 1;font-weight:300;margin:0;padding: 0.7rem 0 1.4rem;}
+h1 strong, .h1 strong, h2 strong, .h2 strong, h3 strong, .h4 strong, h4 strong, .h4 strong, blockquote strong{font-weight: 900 !important;display:inline-block;/* line-height:0.9; *//* font-size:1.05em; */}
+h1 strong a, .h1 strong a, h2 strong a, .h2 strong a, h3 strong a, .h4 strong a, h4 strong a, .h4 strong a, blockquote strong a{color:#fff !important;font-weight:600 !important;}
+html, .root{width:100%;}
+body, .article{}
+h1, .h1{text-transform:uppercase;}
+h2, .h2{text-transform:uppercase;}
+h3, .h3{text-transform:uppercase;}
+h4, .h4{letter-spacing:0.005em;font-weight: 900;text-transform: uppercase;}
+h5, .h5{font-size:2.3em;font-weight:normal;line-height:-5;font-weight:normal;letter-spacing:0em;margin-top:.375em;font-family:'headline';}
+p, ul, ol, pre, table, blockquote{}
+ul ul, ol ol, ul ol, ol ul{margin-top:0em;margin-bottom:0em;}
+hr, .hr{width:100%;clear:both;display:block;}
+a, b, i, strong, em, small, code{}
+sub, sup{line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+
+body{font-size:calc(16px + (20 - 16) * ((100vw - 600px) / (1780 - 600)));}
+h1,.h1{font-size: calc(48px + (100 - 48) * ((100vw - 600px) / (1780 - 600)));}
+h2,.h2{font-size:calc(36px + (90 - 36) * ((100vw - 600px) / (1780 - 600)));}
+h2 small{letter-spacing:0.06em;font-size:2rem;font-weight:300;}
+h3 small{letter-spacing:0.06em;font-size:1.4rem;font-weight:300;line-height:1;display:inline-block;}
+h3,.h3{font-size:calc(30px + (60 - 30) * ((100vw - 600px) / (1780 - 600)));}
+h3.subpage{font-size:calc(23px + (48 - 23) * ((100vw - 600px) / (1780 - 600)));}
+.page_layout h4,.h4{font-size:calc(18px + (28 - 18) * ((100vw - 600px) / (1780 - 600)));}
+.flex-about h3.title{font-size:calc(40px + (84 - 40) * ((100vw - 600px) / (1780 - 600)));}
+blockquote{font-size: calc(16px + (32 - 16) * ((100vw - 600px) / (1780 - 600)));}
+.intro-copy p{font-size:calc(40px + (20 - 40) * ((100vw - 600px) / (1780 - 600)));}
+
+@media (max-width:600px){
+    body{font-size:18px;}
+    .flex-about h3.title{font-size:40px;}
+    h1,.h1{font-size: 48px;}
+    blockquote{font-size: 16px;}
+   
+    .services.alternating .col.text h2{font-size:25px;}
+    h2, .h2{font-size:36px;}
+    h3,.h3{font-size:30px;}
+    h3.subpage{font-size:23px;}
+    .page_layout h4,.h4{font-size:18px;}
+     .intro-copy p{font-size:15px;}
+}
+@media screen and (min-width:1780px){
+    body{font-size:20px;}
+    h1, .h1{font-size:100px;}
+    h3.h1{font-size:130px;}
+    blockquote{font-size:32px;}
+    .flex-about h3.title{font-size:84px;}
+    h2, .h2{font-size:90px;}
+    h3,.h3{font-size:60px;}
+    h3.subpage{font-size:48px;}
+    .page_layout h4,.h4{font-size:28px;}
+    .intro-copy p{font-size:40px;}
+}
+
+
+
+
