@@ -347,16 +347,16 @@
         ],
         [
             {
-                "param": "post_type",
+                "param": "page_template",
                 "operator": "==",
-                "value": "all"
+                "value": "hopepage-full width-layout.php"
             }
         ],
         [
             {
-                "param": "page_template",
-                "operator": "==",
-                "value": "hopepage-full width-layout.php"
+                "param": "post_type",
+                "operator": "!=",
+                "value": "exhibitions_events"
             }
         ]
     ],
@@ -387,5 +387,5 @@
         "button_label": "",
         "appearances": ""
     },
-    "modified": 1657410227
+    "modified": 1658787598
 }

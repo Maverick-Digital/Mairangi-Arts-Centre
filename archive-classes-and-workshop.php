@@ -30,9 +30,6 @@
       'taxonomy' => 'age_group',
       'hide_empty' => false
     ]);
-
-
-
     foreach ($terms as $term) :
 
     ?>    

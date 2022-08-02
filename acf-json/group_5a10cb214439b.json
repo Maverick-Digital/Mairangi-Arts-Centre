@@ -1398,7 +1398,8 @@
                             "post_type": [
                                 "page",
                                 "page_touchpoints",
-                                "gallery"
+                                "gallery",
+                                "exhibitions_events"
                             ],
                             "taxonomy": "",
                             "filters": [
@@ -4119,5 +4120,5 @@
         "button_label": "",
         "appearances": ""
     },
-    "modified": 1658188847
+    "modified": 1658787777
 }
