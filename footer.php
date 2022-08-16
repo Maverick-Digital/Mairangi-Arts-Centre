@@ -180,6 +180,7 @@ window.initMap = initMap;
 
 <?php if (get_field("show_instagram")  && !is_plugin_active('sb-instagram-feed') || is_single()) { ?>
   <div class='instagram layer noprint'>
+    <span class="follow-us"><a target="_blank" href="https://www.instagram.com/mairangiarts/"><i class="fa-brands fa-square-instagram"></i> Follow us</a></span>
     <?php
     echo do_shortcode('[instagram-feed feed=1]');
     ?>

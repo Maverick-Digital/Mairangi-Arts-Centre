@@ -2370,6 +2370,19 @@ a.back-to-top {
 /* footer */
 footer {
 }
+.follow-us{
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin: 20px 0;
+  background-color: #287691;
+  color: #fff;
+  padding: 10px 0;
+}
+.follow-us a{
+  color: #fff;
+  text-decoration: none;
+}
 .footer-widget-wrap {
   display: flex;
   flex-direction: column;
