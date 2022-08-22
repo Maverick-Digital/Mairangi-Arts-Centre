@@ -2374,14 +2374,15 @@ footer {
   width: 100%;
   text-align: center;
   display: block;
-  margin: 20px 0;
   background-color: #287691;
   color: #fff;
-  padding: 10px 0;
 }
 .follow-us a{
   color: #fff;
   text-decoration: none;
+  font-size: medium;
+  display: block;
+  padding: 10px 0;
 }
 .footer-widget-wrap {
   display: flex;
